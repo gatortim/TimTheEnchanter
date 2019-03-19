@@ -16,11 +16,15 @@ By measuring test efficacy we can improve engineering workflows and value delive
 
 ## Delivery team
 
-**Ad-hoc testing and documentation.**
+**Ad-hoc testing, code and documentation.**
 
 ## Version control
 
 **Configuration and environment data**
+
+Documentation lives in version control too.  
+
+Ideally there is metadata embedded in the code which can be used for feature labeling.
 
 ## Build and unit test
 
@@ -38,11 +42,17 @@ By measuring test efficacy we can improve engineering workflows and value delive
 
 **Customer data**
 
-Each cycle produces data.  The feedback loop needs to be fast. As regression suites grow, data informs us of which tests actually need to run. 
+Each cycle produces data.  The feedback loop needs to be fast and tightly coupled. 
 
-Configuration data is test data.  Infrastructure and environment data is test data (particularly for Automox). 
+This requires teams to work directly with customers on both escalations and feature development. 
+
+As regression suites grow, data informs us of which tests actually need to run. 
+
+Configuration data is test data.  Infrastructure and environment data is test data. 
 
 ![Continuous delivery](https://www.mabl.com/hubfs/Mabl%20November2017/Images/anatomy-of-continuous-delivery-pipeline_png__1041%C3%97716_-1.jpg)
+
+By measuring test efficacy we can improve engineering workflows and value delivery to customers.
 
 How do you extract meaningful information from test data? 
 
@@ -54,7 +64,7 @@ Once test efficacy data is available, it can be used to inform test process impr
 
 Approprate measurements and labels must be automatically associated with test data.
 
-An extensible test framework combined with static analysis can make this relatively easy. 
+An extensible test framework combined with static analysis can achieve this. 
 
 Eventually, this process can be fully automated as well, with AI/ML informing which tests provide the best value.
 
@@ -74,7 +84,7 @@ Organizations must demand processes to support this, to support customers.
 
 Data can help reduce the friction in the value delivery stream, but data isn't enough. 
 
-
+By measuring test efficacy we can improve engineering workflows and value delivery to customers.
 
 # The end
 
